@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:"Bank gothic";
+    src: url(fontes/bankgothic-md-bt/BankGothic\ Md\ BT.ttf) format(opentype);
+    font-family: "Trade gothic";
+    src: url(fontes/trade-gothic-lt-std/trade-gothic-lt-std-58a78e64434a9.otf)
+}
+
+:root{
+    --fonte-titulo: "Bank gothic";
+    --fonte-padrão: "Trade gothic";
+}
+
+body{
+    background-color: #f8baca;
+}
+
+header{
+    background-image: url(imagens/albunsLG.png); 
+    background-size: contain;
+    text-align: center;
+    height: 250px;
+    padding-top: 40px;
+    font-size: 30px;
+    box-shadow:10px -4px 20px 10px #c74375
+}
+
+header h1{
+    text-shadow: 
+    -3px -3px 0 #640026,  
+     3px -3px 0 #640026,
+    -3px  3px 0 #640026,
+     3px  3px 0 #640026;
+    font-size: 100PX;
+    font-family: var(--fonte-titulo);
+    color:#c74375;
+    
+}
+
+header p{
+    text-shadow: 
+    -2px -2px 0 #640026,  
+     2px -2px 0 #640026,
+    -2px  2px 0 #640026,
+     2px  2px 0 #640026;
+    font-size: 45PX;
+    font-family: var(--fonte-padrão);
+    color:#c74375;
+}
+
+header nav{
+    margin-top: 20px;
+   
+}
+
+header nav a{
+    text-align: center;
+    padding:10px 20px ;
+    font-family: var(--fonte-padrão);
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+    margin-top: 30px;
+    color: #76002e;
+}
+
+nav a:hover{
+    background-color: #f4afb5;
+}
+main{
+    max-width:1000px;
+    min-width: 300px;
+    font-family: var(--fonte-padrão);
+    font-size: 30px;
+    color: #fbd4de;
+    background-color: #c74375;
+    max-width:1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 75px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow:2px 4px 20px 10px #76002e;
+}
+
+main h1{
+    font-size: 40px;
+    text-align:center;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+main p{
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 38px;
+    line-height: 37px;
+    margin: 20px 0px;
+}
+ 
+main h2{
+    font-size: 35px;
+    text-align:center;
+    text-indent: 4px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+footer{
+    background-color: #c74376a2;
+    padding: 7px;
+    color: #FFD1DC;
+    text-align: center;
+    margin-top: 90px;
+}
+
+footer a{
+    text-decoration: none;
+    color:#FF9AA2;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #640026;
+}

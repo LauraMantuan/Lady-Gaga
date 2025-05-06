@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:"Bank gothic";
+    src: url(fontes/bankgothic-md-bt/BankGothic\ Md\ BT.ttf) format(opentype);
+    font-family: "Trade gothic";
+    src: url(fontes/trade-gothic-lt-std/trade-gothic-lt-std-58a78e64434a9.otf)
+}
+
+:root{
+    --fonte-titulo: "Bank gothic";
+    --fonte-padrão: "Trade gothic";
+}
+
+body{
+    background-color: #f8baca;
+}
+
+header{
+    background-image: url(imagens/albunsLG.png); 
+    background-size: contain;
+    text-align: center;
+    height: 250px;
+    padding-top: 40px;
+    font-size: 30px;
+    box-shadow:10px -4px 20px 10px #c74375
+}
+
+header h1{
+    text-shadow: 
+    -3px -3px 0 #640026,  
+     3px -3px 0 #640026,
+    -3px  3px 0 #640026,
+     3px  3px 0 #640026;
+    font-size: 100PX;
+    font-family: var(--fonte-titulo);
+    color:#c74375;
+    
+}
+
+header p{
+    text-shadow: 
+    -2px -2px 0 #640026,  
+     2px -2px 0 #640026,
+    -2px  2px 0 #640026,
+     2px  2px 0 #640026;
+    font-size: 45PX;
+    font-family: var(--fonte-padrão);
+    color:#c74375;
+}
+
+header nav{
+    margin-top: 20px;
+   
+}
+
+header nav a{
+    text-align: center;
+    padding:10px 20px ;
+    font-family: var(--fonte-padrão);
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+    margin-top: 30px;
+    color: #76002e;
+}
+
+nav a:hover{
+    background-color: #f4afb5;
+}
+main{
+    max-width:1000px;
+    min-width: 300px;
+    font-family: var(--fonte-padrão);
+    font-size: 30px;
+    color: #fbd4de;
+    background-color: #c74375;
+    max-width:1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 75px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow:2px 4px 20px 10px #76002e;
+}
+
+main h1{
+    font-size: 40px;
+    text-align: center;
+    text-indent: 17px;
+    line-height: 49px;
+    margin-top: 42px;
+    margin-bottom: 0px;
+}
+
+main p{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 53px;
+    line-height: 32px;
+    margin: 45px 60px 0px 37px;
+}
+
+main h2{
+    font-size: 35px;
+    text-align:center;
+    text-indent: 4px;
+    line-height: 30px;
+    margin: 92px 425px 50px 0px;
+}
+main .devastated{
+    width: 600px;
+    margin: auto;
+    display: block;
+    background-color:#f4afb56e;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom:3%
+}
+
+main h3{
+    font-size: 39px;
+    text-align: center;
+    text-indent: 4px;
+    line-height: 30px;
+    margin: 92px 510px 50px 0px
+}
+
+.elaNaoVem{
+    background-color:#f4afb56e;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom:  50%;
+
+}
+
+.elaNaoVem > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+  
+    
+}
+
+main h4{
+    font-size: 38px;
+    text-align: center;
+    text-indent: 4px;
+    line-height: 30px;
+    margin: 92px 510px 50px 0px
+}
+
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.perfil{
+    position:right;
+    width: 40%;
+    margin: auto;
+    background-color:#f4afb56e;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+
+
+footer{
+    background-color: #c74376a2;
+    padding: 7px;
+    color: #FFD1DC;
+    text-align: center;
+    margin-top: 90px;
+}
+
+footer a{
+    text-decoration: none;
+    color:#FF9AA2;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #640026;
+}
